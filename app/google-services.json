@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "76219366179",
+    "project_id": "nurture-c1830",
+    "storage_bucket": "nurture-c1830.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76219366179:android:1d9e2ac7ddbccbaa8e6a96",
+        "android_client_info": {
+          "package_name": "com.example.nurtour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76219366179-lejvfslrls8i9l4dnj3m0vqq9nusj5gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7vm7muQkaL50OOIeLGgHkw6DTpkwUMbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76219366179-lejvfslrls8i9l4dnj3m0vqq9nusj5gq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

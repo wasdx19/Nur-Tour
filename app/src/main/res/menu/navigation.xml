@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Главная" />
+    <item
+        android:id="@+id/favFragment"
+        android:icon="@drawable/ic_favorite"
+        android:title="Избранные" />
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/ic_round_fmd_good"
+        android:title="Карта" />
+    <item
+        android:id="@+id/notesFragment"
+        android:icon="@drawable/ic_notes"
+        android:title="Заметки" />
+    <item
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/ic_round_info_white"
+        android:title="О нас" />
+</menu>

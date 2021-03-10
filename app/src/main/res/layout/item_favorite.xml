@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <kr.pe.burt.android.lib.androidgradientimageview.AndroidGradientImageView
+            android:id="@+id/placeImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/qwe"
+            app:giv_alpha="8"
+            app:giv_endColor="@color/white"
+            app:giv_endOffset="0.68"
+            app:giv_middleColor="@color/white"
+            app:giv_middleOffset="0.2"
+            app:giv_rotate="60"
+            app:giv_x="0.0"
+            app:giv_y="0.0" />
+
+        <TextView
+            android:id="@+id/titleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Байтерек"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textSize="16sp"
+            android:layout_margin="8dp"
+            android:ellipsize="end"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

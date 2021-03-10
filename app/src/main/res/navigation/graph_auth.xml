@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_auth"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.nurtour.ui.unauthorized.login.LoginFragment"
+        tools:layout="@layout/fragment_auth_login"
+        android:label="LoginFragment">
+
+        <action android:id="@+id/action_to_registry_fragment"
+            app:destination="@+id/registryFragment"
+            app:enterAnim="@anim/slide_exit_left"
+            app:exitAnim="@anim/slide_exit_left"
+            app:popEnterAnim="@anim/slide_enter_rigth"
+            app:popExitAnim="@anim/slide_exit_rigth"/>
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/registryFragment"
+        android:name="com.example.nurtour.ui.unauthorized.registry.RegistryFragment"
+        tools:layout="@layout/fragment_auth_registry"
+        android:label="RegistryFragment">
+
+        <action android:id="@+id/action_to_login_fragment"
+            app:destination="@+id/loginFragment"/>
+    </fragment>
+
+</navigation>
